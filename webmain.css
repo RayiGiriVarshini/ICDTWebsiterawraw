@@ -1,0 +1,125 @@
+* {margin:0;font-family: 'Dancing Script', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;}
+
+.topnav {
+  overflow:hidden;
+  background-color: #025d63;
+  box-shadow: 0 8px 8px hsla(220, 32%, 8%, .3);
+  z-index: 100;
+}
+
+.topnav a {
+    float: left;
+  display: block;
+  color: #f8f8f8;
+  text-align:justify;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  block-size: 50px;
+}
+.homies{
+    display:block;
+}
+.textt{
+    display:inline-block;
+    vertical-align:10px;
+    word-spacing: -0.5px;
+    letter-spacing: -0.5px;
+}
+.nameofdept{
+    font-size:20px;
+    color:#efeded;
+}
+.instiname{
+    font-size:15px;
+    color:#fff6f6;
+}
+
+.topnav .icon {
+  display:none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: #f8fbfb;
+  padding: 20px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #1e6384;
+  min-width: 125px;
+  box-shadow: 5px 8px 16px 3px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float:none;
+  color: #e3f4f5;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  text-align:center;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #021d1c;
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-content a:hover {
+  background-color: #02131b;
+  color: rgb(239, 251, 246);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 820px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+table.tb{margin-left: 20px;text-align:left;border-collapse:collapse;}
+.tb th, .tb td {border:solid 1.4px #777; padding:5 px;}
